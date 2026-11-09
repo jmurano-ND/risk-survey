@@ -29,7 +29,7 @@ st.sidebar.title("Student Access QR Code")
 # Replace value="" with your permanent Streamlit Cloud URL:
 app_url = st.sidebar.text_input(
     "App URL / Network IP:",
-    value="https://risk-survey-xxxx.streamlit.app",
+    value="https://risk-survey-vjmqgmcgndmhrbm24hedj5.streamlit.app",
     placeholder="Paste http://10.24.61.119:8501 here...",
     help="Paste your terminal Network URL here so students can scan.",
 )
