@@ -26,9 +26,10 @@ global_class_data = get_global_class_data()
 # SIDEBAR: DYNAMIC QR CODE & INSTRUCTOR CONTROLS
 # ---------------------------------------------------------
 st.sidebar.title("Student Access QR Code")
+# Replace value="" with your permanent Streamlit Cloud URL:
 app_url = st.sidebar.text_input(
     "App URL / Network IP:",
-    value="",
+    value="https://risk-survey-xxxx.streamlit.app",
     placeholder="Paste http://10.24.61.119:8501 here...",
     help="Paste your terminal Network URL here so students can scan.",
 )
